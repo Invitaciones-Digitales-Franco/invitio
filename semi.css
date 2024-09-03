@@ -1,0 +1,38 @@
+header{
+  text-align: center;
+  background-color: rgb(120, 120, 120, 0.1);
+  border-radius: 20px;
+  height: 130px;
+}
+
+h2, a{
+  text-decoration: none, underline;
+  color:black;
+  text-shadow: 
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+  color: turquoise;
+}
+p{
+  background-color: rgb(120, 120, 120, 0.1);
+  border-radius: 10px;
+}
+.semi{
+  width: 170px;
+  height:300px;
+  margin: 0px 0px 10px 100px;
+  border: 3px solid black;
+  padding: 1px;
+}
+.mensaje{
+  
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999; 
+
+  
+}

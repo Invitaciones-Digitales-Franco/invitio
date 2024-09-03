@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif; /* Cambiar a Arial */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 30%;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.a1 {
+  text-decoration: none;
+  color: turquoise;
+  padding: 10px;
+  margin: 5px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.mensaje {
+  width: 60px;
+}
+
+.contact-text {
+  margin-left: 10px;
+}
+
+section {
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Monospace, fantasy;
+  font-size: 27px;
+}
+
+p {
+  text-align: justify;
+}
+
+.imagenes, .imagenes2 {
+  border: 3px solid black;
+  padding: 2px;
+  margin: 10px;
+}
+
+.imagenes {
+  width: 150px;
+}
+
+.imagenes2 {
+  height: 150px;
+  width: 170px;
+}
+
+.video-section, .semi-video-section, .normal-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.video-item, .semi-item {
+  width: 100%;
+  max-width: 150px;
+  border: 3px solid black;
+}
+
+.normal-title {
+  text-align: center;
+  font-style: italic;
+}
+
+.products-title {
+  text-align: center;
+  font-family: Monospace, fantasy;
+  font-size: 27px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.img-container {
+  text-align: center;
+  border: 3px solid black;
+  padding: 2px;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-container h2 {
+  margin-top: 10px;
+}
+
+.contact-title {
+  text-align: center;
+  color: rgb(4, 255, 4);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -
+}
